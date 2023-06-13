@@ -10,6 +10,12 @@ def calcular_gasto_combustivel(distancia, num_produtos):
 
 
 
+# def CalcularCustoDaRota(rota):
+     
+     
+#      calcular_distancia(rotas[0].x, rotas[0].y, rotas[1].x, rotas[1].y)
+
+
 def encontrar_proxima_loja(lojas, atual, visitadas):
     menor_distancia = math.inf
     proxima_loja = None

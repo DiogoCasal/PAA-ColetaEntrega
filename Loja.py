@@ -1,13 +1,13 @@
 import math
 
 class Loja(object):
-    numeroLoja = int()
+    numero = int()
     x = int()
     y = int()
-    listaDeEntrega = []
+    destinos = []
 
-    def __init__(self, numeroLoja, x, y, listaDeEntrega):
-        self.numeroLoja = numeroLoja
+    def __init__(self, numero, x, y, destinos):
+        self.numero = numero
         self.x = x
         self.y = y
-        self.listaDeEntrega =  listaDeEntrega
+        self.destinos =  destinos
